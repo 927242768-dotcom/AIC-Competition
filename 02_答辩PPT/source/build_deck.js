@@ -31,6 +31,7 @@ function rect(s,x,y,w,h,fill=C.white,line=null,r=0){s.addShape(r?ST.roundRect:ST
 function line(s,x1,y1,x2,y2,color=C.line,width=1,dash){s.addShape(ST.line,{x:x1,y:y1,w:x2-x1,h:y2-y1,line:{color,width,...(dash?{dashType:'dash'}:{})}});}
 function tx(s,t,x,y,w,h,size=18,color=C.ink,bold=false,opts={}){
  const o={x,y,w,h,fontFace:font,fontSize:size,color,bold,margin:0,breakLine:false,valign:'mid',paraSpaceAfterPt:0,lineSpacingMultiple:1.12,fit:'shrink',...opts};
+ if(typeof t==='string' && /[\u4e00-\u9fff]/.test(t) && String(o.fontFace).startsWith('Aptos'))o.fontFace=font;
  s.addText(t,o);
 }
 function tag(s,t,x,y,w=1.4,color=C.teal,fill=C.pale){rect(s,x,y,w,.3,fill);tx(s,t,x+.09,y+.02,w-.18,.26,10.5,color,true);}
@@ -55,7 +56,7 @@ function base(section,title,sub='',dark=false){
 }
 function foot(s,text,dark=false){tx(s,text,M,6.56,12.12,.26,10.5,dark?'A7C1CE':C.muted);}
 function metric(s,value,label,x,y,w=2.7,col=C.teal){tx(s,value,x,y,w,.76,43,col,true,{fontFace:numfont});tx(s,label,x,y+.85,w,.44,14,C.muted);}
-function item(s,n,title,body,x,y,w=3.6){tx(s,n,x,y,.5,.38,15,C.teal,true,{fontFace:numfont});tx(s,title,x+.62,y,w-.62,.4,19,C.ink,true);tx(s,body,x+.62,y+.53,w-.62,.88,15,C.muted);}
+function item(s,n,title,body,x,y,w=3.6){tx(s,n,x,y,.5,.38,15,C.teal,true,{fontFace:numfont});tx(s,title,x+.62,y,w-.62,.4,19,C.ink,true);tx(s,body,x+.62,y+.53,w-.62,.8,15,C.muted);}
 function table(s,headers,rows,x,y,widths,rowh=.5){
  const total=widths.reduce((a,b)=>a+b,0);rect(s,x,y,total,rowh,C.navy);
  let xx=x;headers.forEach((v,i)=>{tx(s,v,xx+.14,y+.04,widths[i]-.28,rowh-.08,12,C.white,true,{align:i?'center':'left'});xx+=widths[i];});
@@ -84,7 +85,7 @@ function table(s,headers,rows,x,y,widths,rowh=.5){
  const ys=[2.17,3.52,4.87];
  [['01','断层定位','一张切片中的局部形态，难以直接对应完整三维结构。','三平面联动 + 连续切片追踪'],['02','提示时机','没有参照容易卡住；直接展示标注又跳过了自主观察。','先判断，再逐级调用分割参考'],['03','错误复核','只知道答案对错，仍缺少重新定位和比较的操作路径。','回到原始 CT、专家 GT 与三维空间']].forEach((r,i)=>{
   tx(s,r[0],.65,ys[i],.53,.49,24,C.teal,true,{fontFace:numfont});
-  tx(s,r[1],1.35,ys[i],2.0,.44,20,C.ink,true);
+  tx(s,r[1],1.35,ys[i],1.8,.44,20,C.ink,true);
   tx(s,r[2],3.28,ys[i]-.04,5.22,.56,16,C.muted);
   tx(s,r[3],3.28,ys[i]+.66,5.22,.36,15,C.teal,true);
   if(i<2)line(s,.66,ys[i]+1.15,8.7,ys[i]+1.15);
@@ -206,7 +207,7 @@ function table(s,headers,rows,x,y,widths,rowh=.5){
  const vals=[[.4845,.7933],[.3434,.7862],[.8686,.8245]],labs=['Dice','Precision','Recall'];
  const x0=.94,ybase=5.89,maxh=3.0;
  [0,.5,1].forEach(v=>{let y=ybase-v*maxh;line(s,.85,y,8.71,y,'DCE5E9',.7);tx(s,v.toFixed(1),.45,y-.11,.32,.21,9.5,C.muted);});
- vals.forEach((v,i)=>{let x=x0+i*2.65;v.forEach((z,j)=>{rect(s,x+j*.84,ybase-z*maxh,.65,z*maxh,j?C.teal:'A8BBC7');tx(s,z.toFixed(4),x+j*.84-.12,ybase-z*maxh-.38,.91,.26,12.5,j?C.teal:C.muted,true,{align:'center',fontFace:'Aptos'});});tx(s,labs[i],x-.07,6.02,1.85,.31,14,C.ink,true,{align:'center',fontFace:'Aptos'});});
+ vals.forEach((v,i)=>{let x=x0+i*2.65;v.forEach((z,j)=>{rect(s,x+j*.84,ybase-z*maxh,.65,z*maxh,j?C.teal:'A8BBC7');tx(s,z.toFixed(4),x+j*.84-.055,ybase-z*maxh-.38,.78,.26,12.5,j?C.teal:C.muted,true,{align:'center',fontFace:'Aptos'});});tx(s,labs[i],x-.07,6.02,1.85,.31,14,C.ink,true,{align:'center',fontFace:'Aptos'});});
  rect(s,9.16,2.11,3.55,4.14,C.white,C.line);
  tx(s,'误检与表面偏差',9.4,2.42,3.06,.42,20,C.ink,true);
  [['前景体积比','3.71× → 1.68×'],['HD95','166.10 → 37.95 mm'],['ASSD','38.33 → 8.81 mm']].forEach((r,i)=>{let y=3.15+i*.88;tx(s,r[0],9.4,y,3.03,.25,12,C.muted);tx(s,r[1],9.4,y+.33,3.03,.38,17,C.teal,true,{fontFace:'Aptos'});});
