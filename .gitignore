@@ -1,0 +1,31 @@
+# Large release/archive files
+*.zip
+*.7z
+*.rar
+
+# Historical backups
+99_历史备份_非提交/
+_桌面封装旧版本备份_*/
+
+# Browser/UI test profiles and caches
+03_Demo演示/UI验收/edge_debug_teaching/
+03_Demo演示/UI验收/edge_tmp_teaching/
+03_Demo演示/UI验收/edge_final_lab/
+**/Cache/
+**/Cache_Data/
+**/component_crx_cache/
+**/Code Cache/
+**/GPUCache/
+
+# Python / JS build cache
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+build/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

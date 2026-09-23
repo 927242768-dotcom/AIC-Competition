@@ -1,0 +1,179 @@
+INFO:     Started server process [26604]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54052 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55177 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55177 - "GET /static/aic.css?v=20260921-ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55177 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63133 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55177 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     Started server process [35652]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:61147 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56933 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56933 - "GET /static/aic.css?v=20260921-ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56933 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52096 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56933 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55949 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55950 - "GET /results-review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55951 - "GET /results-review?mode=uncertainty HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55952 - "GET /teaching HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55953 - "GET /research-3d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55954 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54216 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     Started server process [16124]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60320 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63835 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63835 - "GET /static/aic.css?v=20260921-ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63835 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62918 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63835 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54966 - "GET /research-3d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54966 - "GET /static/styles.css?v=20260816-2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64397 - "GET /static/research_3d.js?v=20260829-1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59835 - "GET /static/research_3d.css?v=20260921-unified-nav HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54966 - "GET /api/research/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64397 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64397 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58181 - "GET /teaching HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58181 - "GET /static/aic.css?v=20260921-ui HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53343 - "GET /static/teaching.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53343 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53343 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53343 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.500&alpha=0.52&plane=axial&_=1790062325103 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64737 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.500&alpha=0.52&plane=sagittal&_=1790062325103 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58181 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.500&alpha=0.52&plane=coronal&_=1790062325103 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64737 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.650&alpha=0.52&plane=coronal&_=1790062329127 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53343 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.650&alpha=0.52&plane=sagittal&_=1790062329127 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58181 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.650&alpha=0.52&plane=axial&_=1790062329127 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64737 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.770&alpha=0.52&plane=coronal&_=1790062330784 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58181 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.770&alpha=0.52&plane=axial&_=1790062330784 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53343 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.770&alpha=0.52&plane=sagittal&_=1790062330784 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53343 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.390&alpha=0.52&plane=axial&_=1790062332062 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64737 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.390&alpha=0.52&plane=sagittal&_=1790062332062 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58181 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.390&alpha=0.52&plane=coronal&_=1790062332062 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53343 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.250&alpha=0.52&plane=sagittal&_=1790062333289 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64737 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.250&alpha=0.52&plane=coronal&_=1790062333289 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58181 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.250&alpha=0.52&plane=axial&_=1790062333289 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59498 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59498 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.250&alpha=0.52&plane=axial&_=1790062575010 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58657 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.250&alpha=0.52&plane=sagittal&_=1790062575010 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63613 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.250&alpha=0.52&plane=coronal&_=1790062575010 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63613 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63613 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=error&position=0.250&alpha=0.52&plane=axial&_=1790062581853 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61504 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=error&position=0.250&alpha=0.52&plane=sagittal&_=1790062581853 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64371 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=error&position=0.250&alpha=0.52&plane=coronal&_=1790062581853 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65090 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65090 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.250&alpha=0.52&plane=axial&_=1790062583206 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61504 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.250&alpha=0.52&plane=sagittal&_=1790062583206 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64371 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.250&alpha=0.52&plane=coronal&_=1790062583206 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63613 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65090 - "GET /api/research/evaluations/20260827_000843_cpu_binary_stable_sampling_v7_roi64%3A%3Aevaluation_validation_liver_8_retry1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63766 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51405 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64662 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=gt&position=0.250&alpha=0.52&plane=sagittal&_=1790062586192 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51405 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.250&alpha=0.52&plane=axial&_=1790062588507 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64662 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.250&alpha=0.52&plane=coronal&_=1790062588513 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63614 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.250&alpha=0.52&plane=sagittal&_=1790062588513 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51116 - "GET /results-review?mode=raw HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64662 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.810&alpha=0.52&plane=axial&_=1790062591689 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51116 - "GET /static/results_review.js?v=20260921-trust-page HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51116 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51116 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51116 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.500&alpha=0.52&plane=axial&_=1790062595585 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63617 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.500&alpha=0.52&plane=coronal&_=1790062595585 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64492 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.500&alpha=0.52&plane=sagittal&_=1790062595585 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49380 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.500&alpha=0.52&plane=axial&_=1790062601472 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60721 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.500&alpha=0.52&plane=sagittal&_=1790062601472 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53350 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.500&alpha=0.52&plane=coronal&_=1790062601472 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53350 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=gt&position=0.500&alpha=0.52&plane=axial&_=1790062605428 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49380 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=gt&position=0.500&alpha=0.52&plane=sagittal&_=1790062605428 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60721 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=gt&position=0.500&alpha=0.52&plane=coronal&_=1790062605428 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60721 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=error&position=0.500&alpha=0.52&plane=axial&_=1790062607346 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53350 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=error&position=0.500&alpha=0.52&plane=sagittal&_=1790062607346 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49380 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=error&position=0.500&alpha=0.52&plane=coronal&_=1790062607346 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49380 - "GET /api/research/evaluations/20260827_000843_cpu_binary_stable_sampling_v7_roi64%3A%3Aevaluation_validation_liver_8_retry1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54308 - "GET /api/research/evaluations/20260827_000843_cpu_binary_stable_sampling_v7_roi64%3A%3Aevaluation_validation_liver_8_retry1/cases/ctspine1k-msd-t10-liver_8/mpr?mode=raw&position=0.500&alpha=0.52&plane=axial&_=1790062609897 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58256 - "GET /api/research/evaluations/20260827_000843_cpu_binary_stable_sampling_v7_roi64%3A%3Aevaluation_validation_liver_8_retry1/cases/ctspine1k-msd-t10-liver_8/mpr?mode=raw&position=0.500&alpha=0.52&plane=coronal&_=1790062609897 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53324 - "GET /api/research/evaluations/20260827_000843_cpu_binary_stable_sampling_v7_roi64%3A%3Aevaluation_validation_liver_8_retry1/cases/ctspine1k-msd-t10-liver_8/mpr?mode=raw&position=0.500&alpha=0.52&plane=sagittal&_=1790062609897 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51793 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51793 - "GET /static/app.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51793 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59400 - "GET /api/research/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57778 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57778 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57778 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57778 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.500&alpha=0.52&plane=sagittal&_=1790064787965 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57778 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.500&alpha=0.52&plane=axial&_=1790064787965 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49246 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.500&alpha=0.52&plane=coronal&_=1790064787965 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.000&alpha=0.52&plane=sagittal&_=1790064794131 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49246 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.000&alpha=0.52&plane=axial&_=1790064794131 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57778 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.000&alpha=0.52&plane=coronal&_=1790064794131 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49246 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.100&alpha=0.52&plane=coronal&_=1790064796398 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57778 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.100&alpha=0.52&plane=axial&_=1790064796398 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.100&alpha=0.52&plane=sagittal&_=1790064796398 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57778 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.220&alpha=0.52&plane=coronal&_=1790064797307 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.220&alpha=0.52&plane=axial&_=1790064797307 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49246 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.220&alpha=0.52&plane=sagittal&_=1790064797307 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49246 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.340&alpha=0.52&plane=axial&_=1790064798402 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.340&alpha=0.52&plane=coronal&_=1790064798402 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57778 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.340&alpha=0.52&plane=sagittal&_=1790064798402 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57778 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.530&alpha=0.52&plane=axial&_=1790064799405 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.530&alpha=0.52&plane=coronal&_=1790064799405 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49246 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.530&alpha=0.52&plane=sagittal&_=1790064799405 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49246 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.670&alpha=0.52&plane=axial&_=1790064800367 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57778 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.670&alpha=0.52&plane=sagittal&_=1790064800367 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.670&alpha=0.52&plane=coronal&_=1790064800367 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57778 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.910&alpha=0.52&plane=coronal&_=1790064804851 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.910&alpha=0.52&plane=axial&_=1790064804851 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49246 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.910&alpha=0.52&plane=sagittal&_=1790064804851 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49246 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.630&alpha=0.52&plane=axial&_=1790064807317 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57786 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.630&alpha=0.52&plane=coronal&_=1790064807317 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57778 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.630&alpha=0.52&plane=sagittal&_=1790064807317 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62173 - "GET /api/research/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49734 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49734 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63116 - "POST /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mesh/build?source=prediction&simplify_mm=1.5&feature_preservation_strength=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63116 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mesh/summary?source=prediction&simplify_mm=1.5&feature_preservation_strength=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63116 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mesh?source=prediction&simplify_mm=1.5&feature_preservation_strength=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51096 - "GET /results-review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51096 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51096 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51096 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.500&alpha=0.52&plane=axial&_=1790064891914 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62954 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.500&alpha=0.52&plane=sagittal&_=1790064891914 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64992 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.500&alpha=0.52&plane=coronal&_=1790064891914 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51096 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.370&alpha=0.52&plane=sagittal&_=1790064895671 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64992 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.370&alpha=0.52&plane=axial&_=1790064895671 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62954 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.370&alpha=0.52&plane=coronal&_=1790064895671 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62954 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.590&alpha=0.52&plane=axial&_=1790064896922 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64992 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.590&alpha=0.52&plane=coronal&_=1790064896922 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51096 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.590&alpha=0.52&plane=sagittal&_=1790064896922 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51096 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.910&alpha=0.52&plane=axial&_=1790064898387 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64992 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.910&alpha=0.52&plane=coronal&_=1790064898387 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62954 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.910&alpha=0.52&plane=sagittal&_=1790064898387 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64079 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0667/mpr?mode=prediction&position=0.910&alpha=0.52&plane=sagittal&_=1790064919911 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58684 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0667/mpr?mode=prediction&position=0.910&alpha=0.52&plane=axial&_=1790064919910 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50285 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0667/mpr?mode=prediction&position=0.910&alpha=0.52&plane=coronal&_=1790064919910 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49896 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50082 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50082 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50082 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.500&alpha=0.52&plane=axial&_=1790065459392 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59241 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.500&alpha=0.52&plane=sagittal&_=1790065459392 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56670 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=prediction&position=0.500&alpha=0.52&plane=coronal&_=1790065459392 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56670 - "GET /api/research/cases HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59241 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59241 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59241 - "GET /api/research/evaluations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59241 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59241 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.500&alpha=0.52&plane=axial&_=1790065464954 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50082 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.500&alpha=0.52&plane=sagittal&_=1790065464954 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56670 - "GET /api/research/evaluations/20260917_185941_ctspine1k_v7_segformer3d_hr_hard_negative_precision%3A%3Afull_volume_validation197/cases/ctspine1k-colonog-1.3.6.1.4.1.9328.50.4.0663/mpr?mode=raw&position=0.500&alpha=0.52&plane=coronal&_=1790065464954 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56670 - "GET /api/research/evaluations HTTP/1.1" 200 OK

@@ -1,0 +1,41 @@
+ppt/slides/slide1.xml :: AIC · AI+学科交叉 | 智骨云析 | 基于 SegFormer3D 的骨科 CT 智能分割与
+三维空间认知教学实验平台 | 让真实 AI 成为医学生理解 CT 影像与三维空间结构的教学支架。 | SEGFORMER3D | UNCERTAINTY QC | PHYSICAL 3D | 全球校园人工智能算法精英大赛 · 智青春·算未来 · 2026\nppt/slides/slide2.xml :: 01 / WHY | 真正的痛点不是“有没有更多课件” | 而是学生很难把二维 CT 切片、连续层面变化与三维骨结构真正对应起来 | 01 | 二维认知断层 | 单层切片易看懂
+连续空间难建立 | 02 | 提示两难 | 直接给答案太早
+完全不提示又易卡住 | 03 | 练习难复盘 | 答错后缺少
+回到真实影像核验路径 | 04 | 空间关系抽象 | 教材静态图有限
+难形成三维直觉 | 我们的目标：让学生先自主判断，再按需调用 AI 提示、Prediction、MPR 与 3D 完成核验和纠错。 | 2\nppt/slides/slide3.xml :: 02 / SOLUTION | 一套围绕“自主观察 → AI提示 → 空间核验 → 纠错复盘”的教学实验平台 | 01 | 真实CT | 先观察 / 定位 | 02 | SegFormer3D | 真实 Prediction | 03 | 分级提示 | 从方向提示到AI参考 | 04 | MPR + 3D | 二维回到三维空间 | 05 | 教学实验台 | 连续切片 / 练习 / 复盘 | 807 | CTSpine1K 开发病例 | 610 / 197 | Train / Validation | 0.7933 | v7 Full-volume Dice | Web + 3D | 可交互教学闭环 | 3\nppt/slides/slide4.xml :: 03 / ARCHITECTURE | 技术底座服务教学目标：每一层都转化为学生可感知的学习能力 | 数据层 | HU / spacing / affine / label / QC | 保证真实CT与空间坐标可信 | 算法层 | SegFormer3D Encoder + HR 3D Decoder | 生成三维骨结构 Prediction | 可信层 | Full-volume metrics / Uncertainty / Components | 为提示与复核提供质量边界 | 三维层 | Marching Cubes / Simplification / SDF | 把分割结果还原到物理空间 | 教学应用层 | AI提示 / 连续切片 / MPR / 3D | 教师演示、学生实验与自主学习 | 4\nppt/slides/slide5.xml :: 04 / DATA DISCIPLINE | 807 例不是“堆数据”，而是严格的数据工程与实验边界 | CTSpine1K 大规模开发主线 · patient-level split | 807 | 开发集病例 | 610 | 训练集 | 197 | 验证集 | 0 | 当前 test 使用 | 医学影像几何门禁 | • spacing / affine / shape 一致性
+• label 最近邻处理
+• 缓存与 QC 审计
+• 病例级划分，避免患者信息泄漏 | Test sealed | 当前大规模阶段 test_private / test198
+未读取、未评估、未参与阈值搜索。
+所有 0.7933 等主结果均明确标注为 validation197 full-volume。 | 5\nppt/slides/slide6.xml :: 05 / CORE MODEL | 为什么是 SegFormer3D：三维空间 + 多尺度语义 | 不是模型名字本身，而是它为骨科CT适配提供了正确骨架 | C1 · 高分辨率 | C2 · 中尺度 | C3 · 深层语义 | C4 · 全局上下文 | High-Resolution 3D Decoder | 多尺度融合 + 浅层空间分支
+恢复细薄边界与局部骨结构
+
+Full-volume sliding window
+最终必须在完整CT体积上接受验证 | 2D逐切片易弱化Z轴上下文；3D模型直接学习三轴空间连续性，并自然衔接三维重建。 | 6\nppt/slides/slide7.xml :: 06 / MODEL INNOVATION | 我们自己的工作：让模型围绕真实失败模式持续进化 | 01 | HR 3D Decoder | 多尺度 C1/C2/C3/C4 融合
+恢复空间细节 | 02 | CT Spatial Branch | 浅层空间信息直接参与解码
+增强骨结构边界 | 03 | Hard-negative Precision | 针对 full-volume 假阳性
+从“高召回”转向平衡 | 04 | Residual FP Guidance | 只用 train610 残余假阳性
+形成困难区域反馈闭环 | 7\nppt/slides/slide8.xml :: 07 / OPTIMIZATION | 不是流水账：每一代都由 full-volume 失败模式驱动 | v6 | 问题 | Recall 0.8686
+但 Precision 0.3434
+FG ratio 3.7127× | v7 | 解决 | Hard-negative precision
+Dice 0.7933
+Precision 0.7862 | v7.1 | 精修 | Residual false-positive
+train-only guidance
+已完成但未超过 v7 | FINAL：v7.1 已完成 197/197 full-volume 验证但综合表现低于 v7；正式工程模型冻结为 v7，训练线关闭。 | 8\nppt/slides/slide9.xml :: 08 / RESULTS | v7：从“过预测”到更平衡的全体积分割 | 同一 validation197 · full-volume · 197 cases | 0.7933 | Dice | 0.7862 | Precision | 0.8245 | Recall | 0.7347 | IoU | 表面误差同步下降 | HD95    166.10 → 37.95 mm
+ASSD      38.33 → 8.81 mm
+FG ratio   3.7127× → 1.6849×
+Component error   ~1803 → 1.15 | 9\nppt/slides/slide10.xml :: 09 / VISUAL EVIDENCE | 真实 AI 结果进入教学界面，不是静态示意图 | 同一病例中的 Raw CT、Prediction 与空间工具来自真实工程产物 | REAL PROJECT · 2880×1800 | 10\nppt/slides/slide11.xml :: 10 / TRUSTWORTHY AI | AI 不替学生作答，而是在需要时逐级提供可核验的影像参照 | Prediction / Uncertainty → 教学支架 | 01  学生先在 Raw CT 自主观察
+
+02  困难时逐级查看方向提示与 Prediction
+
+03  再用三平面、连续切片和 3D 回到真实空间核验 | AI参考 ≠ 临床诊断；教学提示 ≠ 学生能力自动评分 | 11\nppt/slides/slide12.xml :: 11 / PHYSICAL 3D | 从 voxel prediction 到可操作的三维空间认知 | Marching Cubes · Mesh simplification · SDF · WebGL2 | 不是“好看的3D图” | ✓ spacing / origin / direction
+✓ physical-space mesh
+✓ GT / prediction 切换
+✓ Mask / SDF 切换
+✓ 旋转 / 缩放
+✓ 物理坐标距离 / 角度 | 目标：让二维判断回到真实三维空间 | 12\nppt/slides/slide13.xml :: 12 / PRODUCT | 把算法变成医学生可以直接操作的 AI 教学实验台 | 同一病例，一条学习闭环 | Raw CT：先自主观察与定位
+AI Prediction：按需提供结构参照
+MPR + 连续切片：核验空间连续性
+3D：建立上下、前后、左右关系 | 13\nppt/slides/slide14.xml :: 13 / DEMO | 评委 90 秒体验 AI 怎样参与教学 | 不看训练命令，直接看学生如何使用真实AI结果 | 01 | 自主观察 | Raw CT 中先判断 | 02 | 分级提示 | 困难时再看 Prediction | 03 | 空间核验 | 连续切片 · 三平面联动 | 04 | 三维理解 | Prediction 3D · 纠错复盘 | 现场演示读取真实 evaluation / prediction / GT；完整体积推理较慢时不伪造“实时 AI”。 | 14\nppt/slides/slide15.xml :: 14 / INNOVATION | 技术创新最终都落到教学能力上 | 01 | 高分辨率 3D 骨结构分割 | SegFormer3D + HR Decoder + shallow spatial branch | 02 | Residual False-Positive 反馈闭环 | 从 full-volume 残余错误反推 train-only 精修 | 03 | AI 提示与可信边界 | Prediction / Uncertainty 不直接替学生作答 | 04 | AI → Physical 3D → Teaching | 把真实分割结果转化为空间认知教学支架 | 15\nppt/slides/slide16.xml :: 15 / WHY IT FITS AIC | 对齐官方评分点：AI 与医学影像教学深度适配 | 创新性 · 20 | 4项核心创新 | 模型结构 + 困难样本 + AI提示 + 3D教学 | 需求分析 · 15 | 具体学科痛点 | 医学生CT阅读与二维—三维认知 | 可行性 · 20 | 已运行系统 | 冻结模型 + Web教学台 + 3D真实结果 | 项目实施 · 20 | 807例开发主线 | 807例开发 + 固定split + full-volume验证 | 应用效果 · 20 | 真实模型 + 可操作教学闭环 | v7指标 + AI提示/MPR/3D实际运行 | 总结展望 · 5 | 明确边界与验证路径 | 病例扩展 / 教学验证 / 外部验证 | 16\nppt/slides/slide17.xml :: 16 / VALUE | 从竞赛作品走向可复用的医学影像教学实验平台 | 医学生学习 | 二维CT → 连续切片 → 三维空间认知 | 教师教学 | 真实病例 + AI分级提示 + 可操作实验 | 技术可信 | 冻结v7 + full-volume验证 + 真实Prediction | 推广复用 | 扩展到更多骨科部位与医学影像教学任务 | 当前为医学影像教学与科研辅助原型；不替代临床诊断，不虚构尚未开展的教学效果统计。 | 17\nppt/slides/slide18.xml :: 智骨云析 | 不只是让 AI 分割骨结构，
+而是让真实 AI 帮助学生看懂 CT、理解空间、完成纠错。 | OBSERVE  →  AI HINT  →  VERIFY  →  3D  →  REFLECT | 谢谢评审 · Q&A
